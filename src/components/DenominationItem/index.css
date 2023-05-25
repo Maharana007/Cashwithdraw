@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.button-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+.button {
+  height: 25px;
+  width: 110px;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  background-color: #382f5a;
+  font-weight: 500;
+  color: #c4c4c4;
+  font-size: 15px;
+}

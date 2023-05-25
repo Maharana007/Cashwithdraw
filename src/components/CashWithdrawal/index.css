@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cash-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #150b3e;
+  background-color: cover;
+  width: 300px;
+  margin-top: 15vh;
+  border-radius: 9px;
+  padding: 25px;
+}
+.name-card {
+  display: flex;
+  flex-direction: row;
+}
+.name-icon {
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 90px;
+}
+.initial {
+  color: #7c3aed;
+  font-size: 15px;
+}
+.title {
+  font-size: 15px;
+  color: #c7d2fe;
+  margin-left: 10px;
+  font-weight: 300;
+}
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.your-balance {
+  font-size: 15px;
+  color: #585076;
+  font-weight: 500;
+}
+.balance {
+  font-size: 20px;
+  color: #d4d2db;
+  font-weight: 500;
+}
+.rupees {
+  font-size: 10px;
+  color: #585076;
+  margin-top: -2px;
+}
+.withdraw-card {
+  margin-top: -3px;
+}
+.in-rupee {
+  font-size: 11px;
+  color: #585076;
+  font-weight: 500;
+  margin-top: -3px;
+}
+.button-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+.button {
+  height: 25px;
+  width: 110px;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  background-color: #382f5a;
+  font-weight: 500;
+  color: #c4c4c4;
+  font-size: 15px;
+}
